@@ -1,5 +1,103 @@
+body{
+    width: 1024px;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer{
+    height: 15px;
+}
+.header-container{
+    background-color: #abb8b8;
+    padding: 3%;
+}
+.white-box{
+    background-color: white;
+    padding: 10px;
+    width: 65%;
+    margin: 0% auto;
+}
+.inner-box{
+    border: 2px solid black;
+    padding: 1%;
+}
+.details-education-data ul{
+    margin:0px;
+}
 .name{
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
+}
+.role{
+    text-align: center;
+    font-style: italic;
+}
+.profile-image{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+}
+.flex-item{
+    flex: 1;
+}
+.profile-name{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.profile-data{
+    color: #00000091;
+    width: 70%;
+}
+.image{
+    border-radius: 25%;
+}
+span.icon{
+    float: right;
+}
+.details-education-data{
+    color: #00000091;
+}
+.details-skills-data{
+    list-style: none;
+}
+.details-expertise-data{
+    list-style: none;
+}
+.details-heading{
+    padding: 5px;
+    width: inherit;
+    text-align: center;
+}
+.experience-name .card{
+    border: 2px solid black;
+    flex: inherit;
+    margin-bottom: 15px;
+    padding: 24px 2px 12px 2px;
+}
+.experience-name-text{
+    padding: 5px;
+    text-align: center;
+}
+.custom-line{
+    background-color: #00000091;
+    height: 2px;
+    margin-top: 30px;
+}
+.bold{
+    font-weight: 600;
+}
+.light-brown-background{
+    background-color: #e6be8a;
+}
+.border-black{
+    border:2px solid black;
+}
+.experience-name .list-data{
+    color: #00000091;
+    padding: 15px;
 }
